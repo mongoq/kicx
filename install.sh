@@ -14,7 +14,7 @@ sudo apt install -y \
 INSTALL_DIR="$PWD/kicx"
 
 if [ ! -d "$INSTALL_DIR" ]; then
-    git clone https://github.com/mongoq/tangnano9k.git "$INSTALL_DIR"
+    git clone https://github.com/mongoq/kicx.git "$INSTALL_DIR"
 else
     echo "Repository already exists. Updating..."
     cd "$INSTALL_DIR"
