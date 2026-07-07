@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 set -e
 
-apt update
+apt-get update
 
-apt install -y \
+apt-get install -y \
   curl \
   git \
   build-essential \
