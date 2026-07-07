@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 set -e
 
+echo "Welcome to kicx! We are preparing to talk to a Tang Nano 9k ..."
+
 echo "Installing required packages..."
 
 sudo apt update
